@@ -40,27 +40,37 @@ ORANGEHRM/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Install Dependencies
-```bash
-npm install
+1. Install Dependencies  
+   npm install
 
+2. Run Cucumber Feature Test  
+   npx cucumber-js ./cucumber/features/bookFlight.feature
 
-npx cucumber-js ./cucumber/features/bookFlight.feature
-npx playwright test tests/pomFramework.spec.js --headed
-npx allure generate allure-results --clean -o allure-report
-npx allure open allure-report
+3. Run Playwright Tests (Headed Mode)  
+   npx playwright test tests/pomFramework.spec.js --headed
 
-🧩 Key Features
-✅ Hybrid BDD + UI Testing: Combines the best of Cucumber and Playwright.
-🧱 Page Object Model (POM): Clean and maintainable structure for test scripts.
-⚙️ Parallel Execution: Supports multiple test runs across browsers.
-🔒 Reusable Hooks & Utilities: Common preconditions and data handling.
-📊 Allure Integration: Beautiful and detailed test reports with screenshots.
-🌐 Cross-Browser Testing: Runs on Chromium, Firefox, and WebKit.
-🚀 CI/CD Ready: Easily integratable with Jenkins, GitHub Actions, or Azure Pipelines.
+4. Generate and Open Allure Report  
+   npx allure generate allure-results --clean -o allure-report  
+   npx allure open allure-report
 
-👤 Author
-Pankaj Shukla
-📍 Framework Contributor 
+------------------------------------------------------------
+
+## Key Features
+
+- Hybrid BDD + UI Testing: Combines the best of Cucumber and Playwright.  
+- Page Object Model (POM): Clean and maintainable structure for test scripts.  
+- Parallel Execution: Supports multiple test runs across browsers.  
+- Reusable Hooks & Utilities: Common preconditions and data handling.  
+- Allure Integration: Detailed and easy-to-read test reports with screenshots.  
+- Cross-Browser Testing: Runs on Chromium, Firefox, and WebKit.  
+- CI/CD Ready: Can be integrated with Jenkins, GitHub Actions, or Azure Pipelines.
+
+------------------------------------------------------------
+
+## Author
+
+Pankaj Shukla  
+Framework Contributor  
+Focused on designing scalable, maintainable automation solutions using modern tools and best practices.
