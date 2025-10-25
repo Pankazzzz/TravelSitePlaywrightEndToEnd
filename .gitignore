@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Playwright & test artifacts
+test-results/
+playwright-report/
+allure-report/
+allure-results/
+downloads/
+*.zip
+
+# Logs & temp files
+*.log
+*.tmp
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+.history/
+
+# Compiled or generated files
+*.pdf
+*.mp4
+*.webm
+*.trace.zip
+
+# Coverage reports
+coverage/

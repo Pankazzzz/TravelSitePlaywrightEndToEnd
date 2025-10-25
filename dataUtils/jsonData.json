@@ -1,0 +1,67 @@
+[
+  {
+    "username": "test@gmail.com",
+    "password": "test@000",
+    "pageHeader": "Your Trip Starts Here!",
+    "seatType1": "return",
+    "flightType": "Economy",
+    "boardingLoc": "singa",
+    "boardingAirport": "Singapore Changi Airport",
+    "boardingCode": "SIN",
+    "arrivalLoc": "phuket",
+    "arrivalAirport": "Phuket International Airport",
+    "arrivalCode": "HKT",
+    "departureYear": "2025",
+    "departureMonth": "Dec",
+    "departureDay": "10",
+    "arrivalDate": "12-12-2025",
+    "seatType2": "oneway",
+    "travellerType": "Adults",
+    "travellerQuan": 2,
+    "flightSchedule": "Afternoon",
+    "priceSortOrder": "Highest to Lower",
+    "flightTypeFilter": "Direct",
+
+    "userDetails": {
+      "firstName": "test",
+      "lastName": "tSurname",
+      "email": "test@test.com",
+      "phone": "9022571622",
+      "address": "Test house test",
+      "nationality": "India",
+      "country": "India"
+    },
+
+    "passengers": [
+      {
+        "passengerNo": 1,
+        "title": "Mrs",
+        "firstName": "Test",
+        "lastName": "Surname",
+        "nationality": "India",
+        "day": "31",
+        "month": "07",
+        "year": "1999",
+        "email": "test@test.com",
+        "phone": "9282765167",
+        "passport": "1234567AJSH"
+      },
+      {
+        "passengerNo": 2,
+        "title": "Mr",
+        "firstName": "Test",
+        "lastName": "Surname",
+        "nationality": "India",
+        "day": "01",
+        "month": "01",
+        "year": "1984",
+        "email": "test@test.com",
+        "phone": "9282765167",
+        "passport": "1234567AJSH"
+      }
+    ],
+
+    "paymentMethod": "later",
+    "downloadPath": "/Users/pankajshukla/PlayWrightProjects/OrangeHRM/downloads/invoice.pdf"
+  }
+]
