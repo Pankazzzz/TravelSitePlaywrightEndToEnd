@@ -5,6 +5,8 @@ This project is a **hybrid automation framework** built using **Playwright** and
 ---
 
 ## 📁 Project Structure
+
+```bash
 ORANGEHRM/
 ├── cucumber/
 │   ├── features/
