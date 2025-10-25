@@ -1,6 +1,7 @@
 # 🧪 Playwright + Cucumber Hybrid Framework
 
 This project is a **hybrid automation framework** built using **Playwright** and **Cucumber.js**, designed to test both **UI flows** and **feature-based scenarios** for web applications such as [OrangeHRM](https://opensource-demo.orangehrmlive.com/).
+<img width="1169" height="757" alt="Screenshot 2025-10-25 at 12 43 13 PM" src="https://github.com/user-attachments/assets/667ec7de-3f2e-4c00-8eaf-b0df2a81c491" />
 
 ---
 
