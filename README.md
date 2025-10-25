@@ -5,31 +5,30 @@ This project is a **hybrid automation framework** built using **Playwright** and
 ---
 
 ## 📁 Project Structure
-
 ORANGEHRM/
 ├── cucumber/
-│ ├── features/
-│ │ └── bookFlight.feature
-│ ├── step_definitions/
-│ │ └── flightBookingSteps.js
-│ └── support/
-│ └── hooks.js
+│   ├── features/
+│   │   └── bookFlight.feature
+│   ├── step_definitions/
+│   │   └── flightBookingSteps.js
+│   └── support/
+│       └── hooks.js
 ├── POMClasses/
-│ ├── BookingPage.js
-│ ├── CheckoutPage.js
-│ ├── ConfirmationPage.js
-│ ├── LandingPage.js
-│ └── PageObjectManager.js
+│   ├── BookingPage.js
+│   ├── CheckoutPage.js
+│   ├── ConfirmationPage.js
+│   ├── LandingPage.js
+│   └── PageObjectManager.js
 ├── tests/
-│ ├── example.spec.js
-│ ├── pomFramework.spec.js
-│ ├── phpStandalone.spec.js
-│ └── standalone.spec.js
+│   ├── example.spec.js
+│   ├── pomFramework.spec.js
+│   ├── phpStandalone.spec.js
+│   └── standalone.spec.js
 ├── test-results/
 ├── allure-results/
 ├── allure-report/
 ├── dataUtils/
-│ └── jsonData.json
+│   └── jsonData.json
 ├── package.json
 ├── .gitignore
 └── README.md
